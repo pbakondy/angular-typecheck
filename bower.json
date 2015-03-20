@@ -1,0 +1,25 @@
+{
+  "name": "angular-typecheck",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pbakondy/angular-typecheck",
+  "authors": [
+    "Peter Bakondy <pbakondy@gmail.com>"
+  ],
+  "description": "Extra type checking methods for Angular.js",
+  "main": "./dist/angular-typecheck.min.js",
+  "ignore": [
+    "**/.*",
+    "gulpfile.js",
+    "src",
+    "config"
+  ],
+  "dependencies": {
+    "angular": ">= 1.2.0"
+  },
+  "keywords": [
+    "angular",
+    "type",
+    "type-check",
+  ],
+  "license": "MIT"
+}
