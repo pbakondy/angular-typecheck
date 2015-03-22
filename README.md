@@ -7,65 +7,65 @@ Type checking extension for Angular.js
 
 Oh look! There are [type checking methods](https://docs.angularjs.org/api/ng/function) in Angular.js! Great!
 
-- angular.isUndefined()
-- angular.isDefined()
-- angular.isObject()
-- angular.isString()
-- angular.isNumber()
-- angular.isDate()
-- angular.isArray()
-- angular.isFunction()
+- `angular.isUndefined()`
+- `angular.isDefined()`
+- `angular.isObject()`
+- `angular.isString()`
+- `angular.isNumber()`
+- `angular.isDate()`
+- `angular.isArray()`
+- `angular.isFunction()`
 
 But Wait! This list is incomplete!
 
 Let's extend this list with the missing types!
 
-- angular.isNull()
-- angular.isBoolean()
-- angular.isRegExp()
-- angular.isNaN()
+- `angular.isNull()`
+- `angular.isBoolean()`
+- `angular.isRegExp()`
+- `angular.isNaN()`
 
 What about the new ES6 types?
 
-- angular.isTypedArray()
-- angular.isArrayBuffer()
-- angular.isDataView()
-- angular.isMap()
-- angular.isSet()
-- angular.isWeakMap()
-- angular.isWeakSet()
-- angular.isPromise()
-- angular.isSymbol()
+- `angular.isTypedArray()`
+- `angular.isArrayBuffer()`
+- `angular.isDataView()`
+- `angular.isMap()`
+- `angular.isSet()`
+- `angular.isWeakMap()`
+- `angular.isWeakSet()`
+- `angular.isPromise()`
+- `angular.isSymbol()`
 
 What about a nifty JSON test?
 
-- angular.isJSON()
+- `angular.isJSON()`
 
 Finally a type detection:
 
-- angular.detectType()
+- `angular.detectType()`
 
 Possible return values for *angular.detectType()*:
 
-- 'array'
-- 'arraybuffer'
-- 'boolean'
-- 'dataview'
-- 'date'
-- 'function'
-- 'map'
-- 'null'
-- 'number'
-- 'object'
-- 'promise'
-- 'regexp'
-- 'set'
-- 'string'
-- 'symbol'
-- 'typedarray'
-- 'undefined'
-- 'weakmap'
-- 'weakset'
+- `'array'`
+- `'arraybuffer'`
+- `'boolean'`
+- `'dataview'`
+- `'date'`
+- `'function'`
+- `'map'`
+- `'null'`
+- `'number'`
+- `'object'`
+- `'promise'`
+- `'regexp'`
+- `'set'`
+- `'string'`
+- `'symbol'`
+- `'typedarray'`
+- `'undefined'`
+- `'weakmap'`
+- `'weakset'`
 
 
 ## Further readings
