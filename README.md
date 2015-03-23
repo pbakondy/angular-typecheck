@@ -72,7 +72,7 @@ Possible return values for *angular.detectType()*:
 
 - [MDN - JavaScript Standard built-in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
 - [ECMAScript 5 compatibility table](https://kangax.github.io/compat-table/es5/)
-- [ECMAScript 5 compatibility table](https://kangax.github.io/compat-table/es6/)
+- [ECMAScript 6 compatibility table](https://kangax.github.io/compat-table/es6/)
 
 
 ## Installation
