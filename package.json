@@ -2,7 +2,7 @@
   "name": "angular-typecheck",
   "private": false,
   "main": "dist/angular-typecheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "git://github.com/pbakondy/angular-typecheck.git"
   },

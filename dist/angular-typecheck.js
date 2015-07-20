@@ -39,7 +39,7 @@
 
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN
   if (typeof angular.isNaN === 'undefined') {
-    angular.isNaN = function(value) {
+    angular.isNaN = Number.isNaN || function(value) {
       return typeof value === 'number' && value !== value;
     };
   }
